@@ -14,13 +14,8 @@ h2 {
     padding-bottom: 10px;
 }
 
-.glimage img {
-    height: 380px;
-    width: 480px;
+ img {
+    height: 280px;
+    width: 380px;
     padding: 5px;
-}
-.infoimage img{
-    height: 340px;
-    width: 440px;
-    padding: 4px;
 }
