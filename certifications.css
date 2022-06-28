@@ -19,6 +19,7 @@ h2 {
     width: 380px;
     padding: 5px;
 }
-.infoimg img{
-      display: contents;    
+.infoimg {
+    display: none
 }
+     
