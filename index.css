@@ -34,21 +34,20 @@ img{
     padding: 15px;
 
 }
-.navbar h2{
+.logo h2,h5{
+    margin-top: 75px;
     float: right;
-    padding-top: 50px;
     padding-right: 77%;
-}
-.navbar  p{
-    float: right;
-    padding-top: 51px;
-    padding-right: 77%;
-}
-.navbar .maincontent{
-    align-items: center;
-    padding-top: 40px;
 
 }
+.logo p{
+    margin-top: -66px;
+    float: right;
+    padding-right: 77%;
+
+}
+
+
 .animationBox .box{
     height: 20px;
     width: 20px;
@@ -67,10 +66,12 @@ img{
     padding-left: 620px;   
  
 }
-.navbar{
-    height: 100%;
+
+.logo {
     width: 100%;
+ 
 }
+
 .animationBox{
     padding-left: 85px;
 }
@@ -81,4 +82,5 @@ img{
          75% {background-color: blue; left:0px; top: 100px;}
          100% {background-color: rgb(10, 78, 0); left:0px; top: 0px;}
     }
+
 
