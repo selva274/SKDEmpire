@@ -14,8 +14,13 @@ h2 {
     padding-bottom: 10px;
 }
 
-img {
+.glimage img {
     height: 380px;
     width: 480px;
     padding: 5px;
+}
+.infoimage img{
+    height: 340px;
+    width: 440px;
+    padding: 4px;
 }
