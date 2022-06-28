@@ -35,12 +35,14 @@ img{
 
 }
 .logo h2{
+    position: relative;
     margin-top: 75px;
     float: right;
     padding-right: 77%;
 
 }
 .logo p{
+    position: relative;
     margin-top: -60px;
     float: right;
     padding-right: 77%;
