@@ -1,0 +1,20 @@
+* {
+    background-color: whitesmoke;
+}
+
+
+.bioData{
+   text-align: center;
+}
+.checked{
+    color: orangered;
+    
+}
+.programList .list{
+    margin-left: 125px;
+    display:inline-block;
+    margin-top: 90px;
+}
+.list{
+
+}

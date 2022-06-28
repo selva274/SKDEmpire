@@ -1,0 +1,84 @@
+
+
+body {
+    background-color: whitesmoke;
+}
+
+ul {
+    list-style: none;
+    color: darkgreen;
+}
+
+ul li {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 400;
+}
+
+
+
+div a {
+    text-decoration: none;
+}
+.headings ul{
+    display: inline-flex;
+   
+    margin-left: 450px;
+}
+img{
+    width: 140px;
+    height: 140px;
+    margin-top: 0px;
+    padding: 15px;
+
+}
+.navbar h2{
+    float: right;
+    padding-top: 50px;
+    padding-right: 77%;
+}
+.navbar  p{
+    float: right;
+    padding-top: 51px;
+    padding-right: 77%;
+}
+.navbar .maincontent{
+    align-items: center;
+    padding-top: 40px;
+
+}
+.animationBox .box{
+    height: 20px;
+    width: 20px;
+    animation-name: squareBox;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   
+}
+.animationBox .box{
+    margin-top: 15%;
+    margin-left: 560px;
+}
+.animationBox .pro{
+    padding-left: 620px;   
+ 
+}
+.navbar{
+    height: 100%;
+    width: 100%;
+}
+.animationBox{
+    padding-left: 85px;
+}
+@keyframes squareBox{
+         0%{background-color: rgb(219, 138, 138); left:0px; top: 0px;}
+         25%{background-color: rgb(162, 123, 40); left: 150px; top: 0px;}            
+         50% {background-color: red; left:150px; top: 100px;}
+         75% {background-color: blue; left:0px; top: 100px;}
+         100% {background-color: rgb(10, 78, 0); left:0px; top: 0px;}
+    }
+
