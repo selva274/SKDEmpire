@@ -1,4 +1,8 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 body {
     background-color: whitesmoke;
@@ -36,14 +40,14 @@ img{
 
 }
 .logo h2{
-    position: relative;
+    position: absolute;
     margin-top: 75px;
     float: right;
     padding-right: 77%;
-
+    flex: auto;
 }
 .logo p{
-    position: relative;
+    position: absolute;
     margin-top: -60px;
     float: right;
     padding-right: 77%;
@@ -84,6 +88,28 @@ img{
          50% {background-color: red; left:150px; top: 100px;}
          75% {background-color: blue; left:0px; top: 100px;}
          100% {background-color: rgb(10, 78, 0); left:0px; top: 0px;}
+    }
+@media screen and (max-width:900px) {        
+       body{
+   
+       box-sizing: border-box;
+       }
+      .logo h2{
+           margin-top: 0px;
+        margin-left: 200px;
+      }
+      .logo p{
+        width: 100%;
+        margin-top: 35px;
+        margin-left: 200px;
+      }
+      .maincontent{
+        margin-top: 200px;
+      }
+      .logo img{
+        margin: 30px;
+      }
+      
     }
 
 
