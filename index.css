@@ -1,9 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
 }
-
 body {
     background-color: whitesmoke;
 }
@@ -28,32 +25,36 @@ div a {
     text-decoration: none;
 }
 .headings ul{
-    display: inline-flex;
-   
+    display: inline-flex;   
     margin-left: 450px;
 }
 img{
     width: 140px;
     height: 140px;
-    margin-top: 0px;
+    margin-top: 5px;
+    margin-left: 25px;
     padding: 15px;
 
 }
 .logo h2{
     position: absolute;
-    margin-top: 75px;
-    float: right;
-    padding-right: 77%;
+    margin-top: 5px;
+   
+  margin-left: 30px;
+    padding-right: 80%;
     flex: auto;
 }
 .logo p{
     position: absolute;
-    margin-top: -60px;
-    float: right;
-    padding-right: 77%;
+    margin-top: 45px;
+    
+    margin-left: 30px;
+    padding-right: 80%;
 
 }
-
+.maincontent{
+    margin-top: 50px;
+}
 
 .animationBox .box{
     height: 20px;
@@ -89,27 +90,6 @@ img{
          75% {background-color: blue; left:0px; top: 100px;}
          100% {background-color: rgb(10, 78, 0); left:0px; top: 0px;}
     }
-@media screen and (max-width:900px) {        
-       body{
-   
-       box-sizing: border-box;
-       }
-      .logo h2{
-           margin-top: 0px;
-        margin-left: 200px;
-      }
-      .logo p{
-        width: 100%;
-        margin-top: 35px;
-        margin-left: 200px;
-      }
-      .maincontent{
-        margin-top: 200px;
-      }
-      .logo img{
-        margin: 30px;
-      }
-      
-    }
+
 
 
