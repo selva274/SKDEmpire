@@ -8,5 +8,15 @@ h1 {
 } 
 .subtopis ul li{
     text-decoration: none;
+    list-style: none;
+    float: left;
+    padding: 15px;
+    
+
     
 }
+.subtopis{
+     align-items: center;
+}
+  
+
