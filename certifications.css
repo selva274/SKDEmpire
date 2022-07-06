@@ -15,7 +15,7 @@ h2 {
 }
 
  img {
-    display:flexbox
+    display:flexbox;
     height: 380px;
     width: 480px;
     padding: 5px;
