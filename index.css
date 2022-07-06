@@ -81,7 +81,7 @@ img{
 }
 
 .animationBox{
-    padding-left: 85px;
+    padding-left: 0px;
 }
 @keyframes squareBox{
          0%{background-color: rgb(219, 138, 138); left:0px; top: 0px;}
@@ -90,3 +90,14 @@ img{
          75% {background-color: blue; left:0px; top: 100px;}
          100% {background-color: rgb(10, 78, 0); left:0px; top: 0px;}
     }
+@media(max-width:900px){
+   
+    .animationBox ,.pro{
+        margin-right:
+        padding-left: 0px;
+    }
+    .animationBox .box{
+        
+    }
+   
+}
