@@ -5,27 +5,115 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <!--<link href="bootstrap-5.0.2" rel="stylesheet">-->
   </head>
-  <body>
-    <div class="container-fuid">
-      <div id="my_carousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-<li data-target="#my-carousel" data-slide-to="0" class="active"></li>
-<li data-target="#my-carousel" data-slide-to="1" ></li>
+  <style>
+   #photo{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 30px;   
+    margin-left: 10rem;
+   }
+   h2,h4{
+    text-align: center;
+    font-weight: 4000;
+    font-size: 28px;
+    color:black
+   }  
+   .row{
+    padding-top: 12rem;;
+   }
+ 
+   p{
+    margin: 0;
+    padding-top: 1rem;
+    font-size: 18px;
+   }
+  .about{
+    
+    padding-left: 3rem;
+    margin-left: 2rem;    
+  }
+  pre{
+    padding-top: 1rem;
+  }
+  .head h2{
+    font-size: 40px;
+    padding-top: 2rem;
+  }
 
-        </ol>
-        <div class="carousel-inner" role="listbox">
-       <div class="item active"><img src="cortphoto.jpg" alt="cort" height="400px" width="100%"></div>
-       <div class="item"><img src="selva.jpg" alt="cort" height="400px" width="100%"></div>
-       </div>
-       <a href="#mycarousel" class="left carousel-control" role="button" data-slide="prev"></a>
- <span class="glyphicon glyphicon-chevron-left"></span>
- <span class="sr-only">Previous</span></a>
+   @media only screen and (max-width: 900px) {  
+  .container-fluid,#photo{
+    margin: 0;
+  }
+  h4{
+    padding-top: 2rem;
+  }
+  .row{
+    padding-top: 2rem;
+  }
+  .about{
+    margin-left: 0;
+    padding-left: 0;
+  }
+  pre{
+    margin: 0;
+  }
+  .row1{
+    flex-direction: column-reverse;
+  }
+
+}
+  </style>
+  <body>
+    <div class="head">
+      <h2>Projects</h2>
+    </div>
+   
+     <div class="container-fluid row">
+      <div class=" col col-sm-2 col-lg-6 ">
+        <div class="about" >
+          <h4>Digital display</h4>
+          <p>That is the name showing display using Arduino.it is so complecate but once 
+            understood that working and connection rule.after that it is not a matter.
+            It's having a many wires(Male Jumpers).that is working the main principle of LED(Light Emitting Diode).
+            It is using in the Show the Number or characters in Digital form.Now a days LED is rouling 
+            the digital World.:)
+            <pre><b>Board   : <span>Arduino UNO</span></b><br><b>Display : <span>LED Display</span></b><br><b>Power Source: <span>HIW Battery</span></b>
+            </pre>
+          </p>
         </div>
       </div>
+      <div class="col col-sm-2 col-lg-6">       
+        <img id="photo" src="project/display.jpeg" alt="display project">
+      </div>      
+    
     </div>
+     <!--second Row-->
+      <div class=" container-fluid row row1 ">     
+        <div class="col  col-lg-6 col-sm-1 ">          
+          <img id="photo" src="project/led.jpeg" alt="Led project">          
+        </div>        
+       <div class="col col-lg-6 col-sm-1 ">
+        <div class="about" >
+          <h4>Led Blinking</h4>
+          <p>It's my first project.it is my favourite one.when I was early stage of 
+            learning of Arduino. I was so confused.Because,It is having the more ports and holes.
+            Anyway I did not loss my Confident.I saw arduino functions and basics in youtube.
+            This is an Basic Project.It's initiate the Learning about the arduino.
+            <pre><b>Board: <span>Arduino UNO</span><br><b>LED  : <span>Red Colour</span></b> </b><br><b>Power Source: <span>HIW Battery</span></b><br><b>Bread Board</b>
+            </pre>
+          </p>
+          </div>
+        </div>
+      </div> 
+        
+     
+      </div>
+     
+ 
+
   </body>
 </html>
